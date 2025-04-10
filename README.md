@@ -7,6 +7,17 @@ This report looks into the performance of pulling container images from Azure Co
 
 For all of these, I will be using Virtual Machine SKUs with Accelerated Networking enabled.
 
+## Tool and Environment Versions
+
+| Component        | Version / Info                                                                 |
+|------------------|---------------------------------------------------------------------------------|
+| **OS**           | Ubuntu 22.04.5 LTS (Jammy)                                                      |
+| **Kernel/Driver**| Mellanox ConnectX-4 Lx VF (`MT27710`, rev 80)                                   |
+| **Podman**       | 3.4.4 (Go 1.18.1)                                                               |
+| **Docker (Client)** | 28.0.4 (API 1.48, Go 1.23.7, Git b8034c0)                                  |
+| **Docker (Server)** | 28.0.4 (containerd 1.7.27, runc 1.2.5, init 0.19.0)                         |
+| **Buildah**      | 1.23.1 (Go 1.17, Image Spec 1.0.1, CNI 0.4.0)                                   |
+
 ## Environment Setup
 
 ### Azure Resources
