@@ -5,6 +5,8 @@
 
 This report looks into the performance of pulling container images from Azure Container Registry (ACR) under different configurations and tools using a controlled Azure environment. The focus is on measuring image pull duration, evaluating system disk vs RAM disk performance during extraction, and identifying bottlenecks in real-world usage scenarios.
 
+For all of these, I will be using Virtual Machine SKUs with Accelerated Networking enabled.
+
 ## Environment Setup
 
 ### Azure Resources
