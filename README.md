@@ -1,5 +1,5 @@
 
-# ACR Pull Performance Investigation (`acr-pull-perf`)
+# ACR Pull Performance Investigation
 
 ## Objective
 
